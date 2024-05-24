@@ -77,7 +77,8 @@
                 <version>2.22.1</version>
                 <configuration>
                     <!-- https://groups.google.com/g/thucydides-users/c/Mv5GYtrls_Q -->
-                    <skip>true</skip>
+                    <!-- skip>true</skip-->
+                    <argLine>--add-opens java.base/java.lang=ALL-UNNAMED</argLine>
                 </configuration>
             </plugin>
             <plugin>
